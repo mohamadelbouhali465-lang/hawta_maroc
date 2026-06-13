@@ -1,16 +1,69 @@
+# Hawta Maroc
 
+A modern full-stack web application built with React, TypeScript, Express, and Google Generative AI integration.
 
-This contains everything you need to run your app locally.
+## Tech Stack
 
-View your app in AI Studio: https://ai.studio/apps/ac8e76ca-5302-4162-b971-c46f7e8c9672
+- **Frontend**: React 19, TypeScript, Vite, Tailwind CSS, Motion animations
+- **Backend**: Express, Node.js
+- **Database**: MongoDB (Mongoose)
+- **AI**: Google Generative AI (@google/genai)
+- **Styling**: Tailwind CSS with Lucide React icons
+- **Routing**: React Router DOM
 
-## Run Locally
+## Prerequisites
 
-**Prerequisites:**  Node.js
+- Node.js (v16 or higher)
+- npm or yarn
+- Google Generative AI API key
 
+## Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mohamadelbouhali465-lang/hawta_maroc.git
+   cd "hawta-maroc (3)"
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Set up environment variables in `.env.local`:
+   ```
+   GEMINI_API_KEY=your_google_api_key_here
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+The app will be available at `http://localhost:3000` (or the port shown in your terminal)
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build the project for production
+- `npm start` - Start the production server
+- `npm run clean` - Remove build artifacts
+- `npm run lint` - Type-check with TypeScript
+
+## Features
+
+- Full-stack TypeScript application
+- Server-side rendering with Express
+- React components with Tailwind CSS styling
+- Google Generative AI integration
+- MongoDB database integration
+- Responsive UI with Motion animations
+- Type-safe development with TypeScript
+
+## Contributing
+
+Feel free to fork, modify, and improve this project!
+
+## License
+
+This project is open source and available under the MIT License.
