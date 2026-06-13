@@ -1,13 +1,12 @@
 # Hawta Maroc
 
-A modern full-stack web application built with React, TypeScript, Express, and Google Generative AI integration.
+A modern full-stack web application built with React, TypeScript, Express, and MongoDB.
 
 ## Tech Stack
 
 - **Frontend**: React 19, TypeScript, Vite, Tailwind CSS, Motion animations
 - **Backend**: Express, Node.js
 - **Database**: MongoDB (Mongoose)
-- **AI**: Google Generative AI (@google/genai)
 - **Styling**: Tailwind CSS with Lucide React icons
 - **Routing**: React Router DOM
 
@@ -15,7 +14,6 @@ A modern full-stack web application built with React, TypeScript, Express, and G
 
 - Node.js (v16 or higher)
 - npm or yarn
-- Google Generative AI API key
 
 ## Installation
 
@@ -30,12 +28,7 @@ A modern full-stack web application built with React, TypeScript, Express, and G
    npm install
    ```
 
-3. Set up environment variables in `.env.local`:
-   ```
-   GEMINI_API_KEY=your_google_api_key_here
-   ```
-
-4. Run the development server:
+3. Run the development server:
    ```bash
    npm run dev
    ```
@@ -55,7 +48,6 @@ The app will be available at `http://localhost:3000` (or the port shown in your 
 - Full-stack TypeScript application
 - Server-side rendering with Express
 - React components with Tailwind CSS styling
-- Google Generative AI integration
 - MongoDB database integration
 - Responsive UI with Motion animations
 - Type-safe development with TypeScript
