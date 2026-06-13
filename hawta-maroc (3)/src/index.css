@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #ff6600; /* Alibaba Orange */
+  --color-primary-dark: #e65c00;
+  --color-secondary: #004d99; /* Professional Blue */
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-[#f4f4f4] text-[#333];
+  }
+}
+
+.alibaba-shadow {
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.05);
+}
+
+.alibaba-card-hover {
+  @apply transition-all duration-300;
+}
+
+.alibaba-card-hover:hover {
+  @apply -translate-y-1 shadow-lg;
+}
